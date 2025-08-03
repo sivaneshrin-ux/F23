@@ -5,18 +5,18 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7930764563:AAGOdCMG8CPwVOV1IUN0Md80jIfNNHZy97A")
-API_ID = int(os.environ.get("API_ID", "28015531"))
-API_HASH = os.environ.get("API_HASH", "2ab4ba37fd5d9ebf1353328fc915ad28")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7972014312:AAFjyKDtv-Hf9LApqTcmEZT4er25AXIDjLs")
+API_ID = int(os.environ.get("API_ID", "24160099"))
+API_HASH = os.environ.get("API_HASH", "381515f2540b0bf817a68af8b352f5b7")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "7189632039"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1700918361"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://haribotx:haribotx@cluster0.i3skil4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002469803810"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002268435820"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002180295311"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001155140455"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "3600")) # auto delete in seconds
@@ -28,8 +28,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6848088376]
-    for x in (os.environ.get("ADMINS", "6912994467").split()):
+    ADMINS=[6248675084]
+    for x in (os.environ.get("ADMINS", "6248675084").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
