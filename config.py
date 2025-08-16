@@ -5,18 +5,18 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7972014312:AAFjyKDtv-Hf9LApqTcmEZT4er25AXIDjLs")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8249947123:AAGl0bEb8emFqoGD5YkYKx-3MmaAjh87FTg")
 API_ID = int(os.environ.get("API_ID", "24160099"))
 API_HASH = os.environ.get("API_HASH", "381515f2540b0bf817a68af8b352f5b7")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "1700918361"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6248675084"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://haribotx:haribotx@cluster0.i3skil4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002180295311"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001155140455"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002953729534"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002694700188"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "3600")) # auto delete in seconds
@@ -67,7 +67,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6848088376)
+ADMINS.append(6248675084)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
